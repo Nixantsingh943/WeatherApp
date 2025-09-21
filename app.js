@@ -56,11 +56,11 @@ function weatherReport(data) {
         document.getElementById('clouds').innerText = data.weather[0].description;
         console.log(data.weather[0].description)
 
-        // additional 
-        // Humidity
+        
+        
         document.getElementById('humidity').innerText = "💧 Humidity: " + data.main.humidity + "%";
 
-        // Wind Speed
+    
         document.getElementById('wind').innerText = "💨 Wind Speed: " + data.wind.speed + " m/s";
         
         let icon1 = data.weather[0].icon;
