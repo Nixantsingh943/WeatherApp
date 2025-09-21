@@ -1,1 +1,155 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background: linear-gradient(45deg,rgba(183, 49, 8, 0.717),rgba(7, 43, 127, 0.679)), url('./background.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: rgb(214, 147, 45);
+    text-decoration: underline;
+    font-family: orbiton, sans-serif;
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: cadetblue;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Concert One', cursive ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+#city{
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+}
+.weather i{
+    font-size: 100px;
+    width: 120px;
+    height: 120px;
+    background-clip: rgba(240, 248, 255, 0.408); 
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+p{
+    margin: 3%;
+    font-family: 'Concert One', cursive;
+    color: rgb(232, 236, 174);
+
+
+}
+#humidity{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#wind{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#precipitaiton{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 50, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color: aliceblue;
+    background: rgba(5, 8, 173, 0.539);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.divider1,.divider2{
+    background: rgba(245, 169, 103, 0.539);
+    height: 300px;
+    border-radius: 5px;
+}
+.divider2{
+    height: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: rgb(229, 241, 125);
+}
+.desc{
+    color: rgba(15, 14, 0, 0.873);
+}
