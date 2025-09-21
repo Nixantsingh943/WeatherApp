@@ -10,17 +10,17 @@ This Weather App is a web application built using HTML, CSS, and JavaScript. It 
 
 Search for any city to get current weather information.
 
-Display temperature, humidity, wind speed, and weather description.
+Display temperature, humidity,and wind speed .
 
 Show corresponding weather icon.
 
 Hourly forecast for the next few hours.
 
-5-day daily forecast with temperature ranges and weather conditions.
+4-day daily forecast with temperature ranges and weather conditions.
 
-Interactive design with a responsive layout and animated background.
+Interactive design with a responsive layout .
 
-Easy to use and mobile-friendly.
+Easy to use .
 
 ---
 ### Technologies Used
