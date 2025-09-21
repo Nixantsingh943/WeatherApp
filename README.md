@@ -32,4 +32,4 @@ CSS3 for styling, including grid layouts, animations, and gradients.
 JavaScript (Vanilla) for fetching and displaying data from the OpenWeatherMap API.
 
 OpenWeatherMap API to provide current weather and forecast data.
----
+
