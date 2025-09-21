@@ -1,11 +1,11 @@
-## WeatherApp
----
-# Overview
+##WeatherApp
 
+### Overview
+---
 This Weather App is a web application built using HTML, CSS, and JavaScript. It allows users to view the current weather and forecast for any city in the world. The app fetches real-time weather data from the OpenWeatherMap API and displays information including temperature, humidity, wind speed, and weather conditions.
+
 ---
----
-# Features
+### Features
 
 Search for any city to get current weather information.
 
@@ -22,7 +22,7 @@ Interactive design with a responsive layout and animated background.
 Easy to use and mobile-friendly.
 ---
 ---
-# Technologies Used
+### Technologies Used
 
 HTML5 for structuring the web pages.
 
